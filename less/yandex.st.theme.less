@@ -88,6 +88,12 @@
 // MAIN
 .b-share_theme_counter{
 
+    *, *:after, *:before {
+       -moz-box-sizing:    content-box;   /* Firefox 1, probably can drop this */
+       -webkit-box-sizing: content-box;   /* Safari 3-4, also probably droppable */
+        box-sizing:        content-box;   /* Everything else */
+    }
+
     .b-share{
         padding: 0 !important;
     }
