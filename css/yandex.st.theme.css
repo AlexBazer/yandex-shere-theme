@@ -4,6 +4,16 @@
   height: 14px;
   display: inline-block;
 }
+.b-share_theme_counter *,
+.b-share_theme_counter *:after,
+.b-share_theme_counter *:before {
+  -moz-box-sizing: content-box;
+  /* Firefox 1, probably can drop this */
+  -webkit-box-sizing: content-box;
+  /* Safari 3-4, also probably droppable */
+  box-sizing: content-box;
+  /* Everything else */
+}
 .b-share_theme_counter .b-share {
   padding: 0 !important;
 }
