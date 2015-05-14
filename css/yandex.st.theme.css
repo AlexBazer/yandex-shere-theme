@@ -16,8 +16,11 @@
 }
 .b-share_theme_counter .b-share {
   padding: 0 !important;
+  white-space: initial !important;
 }
 .b-share_theme_counter .b-share-btn__wrap {
+  float: initial !important;
+  display: inline-block;
   margin-bottom: 10px;
 }
 .b-share_theme_counter .b-share-btn__wrap:first-child {
